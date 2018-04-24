@@ -9,8 +9,8 @@ let package = Package(
         .executable(name: "Run", targets: ["Run"])
     ],
     dependencies: [
-        .package(url: "https://github.com/vapor/vapor.git", .upToNextMinor(from: "2.3.0")),
-        .package(url: "https://github.com/vapor/fluent-provider.git", .upToNextMinor(from: "1.3.0")),
+        .package(url: "https://github.com/vapor/vapor.git", .upToNextMajor(from: "2.3.0")),
+        .package(url: "https://github.com/vapor/fluent-provider.git", .upToNextMajor(from: "1.3.0")),
         ],
     targets: [
         .target(
